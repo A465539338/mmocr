@@ -22,7 +22,7 @@
 - PyTorch 1.5
 - torchvision 0.6.0
 
-MMOCR 基于 Pytorch 和 mmdetection 项目实现。
+MMOCR 基于 PyTorch 和 mmdetection 项目实现。
 
 ## 详细安装步骤
 
@@ -38,7 +38,7 @@ b. 按照 PyTorch 官网教程安装 PyTorch 和 torchvision 。[参见官方链
 ```shell
 conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 -c pytorch
 ```
-注意：确定 CUDA 编译版本和运行版本一致。你可以在[Pytorch官网](https://pytorch.org/)检查预编译 PyTorch 所支持的 CUDA 版本。
+注意：确定 CUDA 编译版本和运行版本一致。你可以在[PyTorch官网](https://pytorch.org/)检查预编译 PyTorch 所支持的 CUDA 版本。
 
 
 c. 安装 mmcv，推荐以下方式进行安装。
